@@ -1,9 +1,9 @@
-package exercises;
+package main.java.exercises;
 import java.util.*;
 
 public class Stringrev {
 
-	public static void main(String[] args) {
+	public static String revstr() {
 		String str="london";
 		String rev = "";
 		System.out.println("The original string is "+str);
@@ -12,7 +12,7 @@ public class Stringrev {
 			rev = rev + str.charAt(i);
 			
 		}
-		System.out.print("The reversed string is: "+rev);
+	    return rev;
 	}
 
 }

@@ -1,4 +1,4 @@
-package exercises;
+package main.java.exercises;
 import java.util.*;
 
 public class stringrepeat {

@@ -1,10 +1,11 @@
-package exercises;
+package main.java.exercises;
 import java.util.*;
 
 public class numberloop {
 
-	public static void main(String[] args) {
+	public static String loop() {
 		int num;
+		String loop = "";
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the upper limit number:");
 		num=sc.nextInt();
@@ -13,10 +14,10 @@ public class numberloop {
 		{
 			for(int j=0;j<i;j++)
 			{
-				System.out.print(i);
+				loop+= i;
 			}
 		}
-
+        return(loop);
 	}
 
 }
